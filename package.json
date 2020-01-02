@@ -1,0 +1,16 @@
+{
+    "name": "blog.jlebon.com",
+    "homepage": "blog.jlebon.com",
+    "description": "Jonathan's Blog",
+    "author": "Jonathan Lebon <jonathan@jlebon.com>",
+    "bugs": "https://github.com/jlebon/blog.jlebon.com",
+    "repository": "https://github.com/jlebon/blog.jlebon.com",
+    "license": "MIT",
+    "version": "0.0.1",
+    "private": true,
+    "devDependencies": {
+        "highlight.js": "^9.17.1",
+        "jsdom": "^16.0.1",
+        "showdown": "^1.9.1"
+    }
+}
