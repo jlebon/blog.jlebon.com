@@ -1,0 +1,71 @@
+body {
+    font-family: serif;
+    font-size: 120%;
+    margin: 0; /* needed to get topbar flush across */
+    overflow-y:scroll;
+}
+a:hover {
+    text-shadow: 0 0 0.01px;
+}
+
+/* TOP BAR */
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+nav > * {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+nav h1 {
+    flex: 1 1 auto;
+    font-size: 140%;
+    font-weight: bold;
+}
+nav ul li a img {
+    padding-top: 3px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN AREA */
+
+.mainarea {
+    margin-left: 1ch;
+    margin-right: 1ch;
+}
+.content {
+    max-width: 60ch;
+    margin: 0 auto;
+}
+.content h2 {
+    line-height: 100%;
+    margin-bottom: 0px;
+}
+.content a {
+    color: darkblue;
+    text-decoration: none;
+}
+.content h2 a {
+    color: black;
+}
+p.date {
+    margin-top: 0.5ch;
+    line-height: 90%;
+    font-size: 90%;
+}
+code {
+    color: black;
+    background-color: rgba(69, 76, 82, 0.05);
+}
